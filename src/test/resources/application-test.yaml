@@ -1,0 +1,12 @@
+db:
+  username: test
+  password: test
+
+spring:
+  datasource:
+    username: test
+    password: test
+  jpa:
+    properties.hibernate:
+      show_sql: true
+      hbm2ddl.auto: validate
